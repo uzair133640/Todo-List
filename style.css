@@ -1,0 +1,91 @@
+
+body {
+    background-color: rgb(0, 225, 255);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 500px; 
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(0, 174, 255);
+    text-align: center;
+}
+
+#input {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid black;
+    width: 80%; 
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.add {
+    padding: 12px 20px;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add:hover {
+    background-color: rgb(0, 140, 200);
+}
+
+ol {
+    padding-left: 20px; 
+    margin-top: 20px;;
+    
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: rgb(240, 240, 240);
+    width: 350px; 
+    box-sizing: border-box;
+    list-style-position: outside; 
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.edit, .del {
+    font-size: 16px;
+    background-color: rgb(0, 174, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.edit:hover, .del:hover {
+    background-color: rgb(0, 140, 200);
+}
